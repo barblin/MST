@@ -144,6 +144,103 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer"/>
+        <teaches rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS103"/>
+        <teaches rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M201"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larisa</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soldatova</last_name>
+        <staff_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">417686</staff_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Lecturer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M204">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS101"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M201"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M204"/>
+        <first_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Josef</first_name>
+        <last_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baker</last_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">266814</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#Student"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#CS103"/>
+        <studies rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-3#M201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
