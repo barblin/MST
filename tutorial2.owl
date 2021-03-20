@@ -7,7 +7,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:tutorial2="https://barblin.github.io/MST/tutorial2#">
-    <owl:Ontology rdf:about="https://barblin.github.io/MST/tutorial2"/>
+    <owl:Ontology rdf:about="https://barblin.github.io/MST/tutorial2">
+        <owl:versionIRI rdf:resource="https://barblin.github.io/MST/tutorial2"/>
+    </owl:Ontology>
     
 
 
