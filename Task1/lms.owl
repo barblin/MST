@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/johannes/ontologies/2021/2/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#attend -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#attend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#contain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#create"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#enrolled -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#enrolled"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#grade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#grade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#mandatory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#mandatory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#publish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#publish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#recommended -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#recommended"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#reference -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#reference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#teach -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#teach"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#upload -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#upload"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#waitlisted -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#waitlisted"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#ECTS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#ECTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#academic_grade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#academic_grade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#date_submitted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#date_submitted"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#deadline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#deadline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#end_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#end_time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#filename -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#filename"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#first_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#first_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#format -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#format"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#group_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#group_size"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#last_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#last_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#matriculation_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#matriculation_number"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#maximum_points -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#maximum_points"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#points_assessed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#points_assessed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#publication_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#publication_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#resolution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#resolution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#size"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#start_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#start_time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#upload_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#upload_date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Archive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Archive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Assignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Assignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#AssignmentSpecification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#AssignmentSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#AssignmentSubmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#AssignmentSubmission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Course"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#CourseMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#CourseMaterial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Lecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Lecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#PDF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#PDF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Archive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Audio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#PDF"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Student"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Teacher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johannes/ontologies/2021/2/lms#Video"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
